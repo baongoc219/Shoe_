@@ -1,0 +1,147 @@
+section.row {
+	padding: 55px 0;
+}
+
+#frame--title {
+	max-width: 600px;
+	max-height: 350px;
+	background-color: #000000;
+	padding: 10px;
+	position: relative;
+}
+
+#carouselExampleCaptions {
+	max-height: 350px;
+}
+
+.carousel-item > img {
+	max-height: 320px;
+	width: auto;
+	background-size: cover;
+	margin: 0 auto;
+}
+
+#home--tool {
+	padding: 40px 7vw;
+}
+
+#home--tool > * {
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 35px !important;
+	color: #7a7a7a;
+	text-align: center;
+}
+
+.container--shoes {
+	display: flex;
+	flex-direction: column; /* Stack rows vertically */
+	align-items: center; /* Center rows horizontally */
+	justify-content: center; /* Center rows vertically */
+	padding: 25px 0;
+}
+
+.container--shoes-row {
+	display: flex;
+	justify-content: center;
+	gap: 60px;
+	margin-bottom: 50px;
+}
+
+.container--shoes-row > .container-node {
+	width: 250px;
+	height: 250px;
+}
+
+.container--shoes-row > .container-node > div {
+	width: 100%;
+	height: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.container-node > p {
+	text-align: center;
+	width: 100%;
+}
+
+.container--service {
+	position: relative;
+}
+
+.container--service-title {
+	text-align: center;
+}
+
+.container--service-nodes {
+	display: flex;
+	column-gap: 45px;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.container--service-nodes > .container--service-node {
+	width: 300px;
+	min-height: 450px;
+	box-shadow: 0 0 5px #000000;
+	background-color: #FFFFFF;
+}
+
+.container--service-nodes > .container--service-node > .container--service-node-d {
+	height: 35%;
+	width: 80%;
+	background-color: black;
+}
+
+.container--service-nodes > .container--service-node > .container--service-node-c {
+	padding: 10px;
+}
+
+.btn-readmore {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 14px;
+	padding: 15px 25px;
+	border: 0;
+	text-align: center;
+	margin-top: 20px;
+	width: 250px;
+}
+
+.stars_icon {
+	font-size: 35px;
+	width: 100%;
+	text-align: center;
+}
+
+.stars_icon > i {
+	color: #FFCE00;
+}
+
+.stars_cites {
+	width: 100%;
+	margin-top: 25px;
+}
+
+.stars_cites > .stars_cite {
+	width: 100%;
+	text-align: center;
+}
+
+.stars_cite--title {
+	font-weight: 600;
+	font-size: 30px;
+	padding: 0 30vw;
+}
+
+.stars_cite--author {
+	text-align: right !important;
+	padding: 13px 38vw 0;
+}
+
+.app {
+	background-color: #e9e8e8;
+}

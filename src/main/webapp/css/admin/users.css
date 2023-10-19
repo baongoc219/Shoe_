@@ -1,0 +1,80 @@
+body {
+	overflow-y: hidden;
+}
+
+.content-tab {
+	background-color: #000000;
+	padding: 20px 0;
+}
+
+.content-tab > button {
+	border: 0;
+	background-color: #000000;
+	width: 100%;
+	text-align: left;
+	padding: 20px 6px !important;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+.component--search {
+	width: 100%;
+	text-align: center;
+	margin: 25px 0;
+	display: flex;
+}
+
+.content-frame {
+	height: 100vh;
+	max-height: 100vh;
+	padding: 0 5vw !important;
+	box-shadow: 0 0 3px #000000;
+}
+
+.component--search > input {
+	width: 100%;
+	border: 1px solid #000000;
+	margin: 0;
+	padding: 7px 15px;
+	border-radius: 10px;
+}
+
+.component--search > button {
+	margin: 0;
+	padding: 7px 15px;
+	border: 1px solid #000000;
+	background-color: #000000;
+	color: #FFFFFF;
+	border-radius: 10px;
+}
+
+.component--search > button:hover {
+	background-color: #2f2f2f;
+}
+
+.result-table {
+	width: 100%;
+	padding: 0;
+}
+
+.result-table * tr {
+	border: 2px solid #5b5b5b;
+}
+
+.edit-button {
+	border: 0;
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 5px 10px;
+	border-radius: 9px;
+	margin: 10px 0;
+}
+
+.ban-button {
+	border: 0;
+	background-color: #dc0000;
+	color: #FFFFFF;
+	padding: 5px 10px;
+	border-radius: 9px;
+	margin: 10px 0;
+}

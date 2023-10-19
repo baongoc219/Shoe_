@@ -1,0 +1,16 @@
+.content {
+    padding: 30px 20vw;
+}
+
+.blur {
+    color: rgb(162, 162, 162);
+}
+
+section > p {
+    padding-bottom: 35px;
+}
+
+section > h4 {
+    padding: 50px 0;
+    text-align: center;
+}
